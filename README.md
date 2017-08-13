@@ -8,6 +8,7 @@
 
 # CSS 篇
 - [CSS选择器详解](CSS/CSS选择器详解.md)
+- [CSS优先级机制](CSS/CSS优先级机制.md)
 
 # PHP 篇
 
