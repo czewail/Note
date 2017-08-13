@@ -53,6 +53,7 @@ div {
 }
 ```
 举个实栗🌰：
+
 ![bounceIn](assets/bouncein.gif)
 
 
@@ -121,6 +122,7 @@ div {
 ```
 
 举个实栗🌰：
+
 ![animation-delay](assets/animation-delay.gif)
 
 #### Animation-iteration-count
@@ -132,6 +134,7 @@ div {
 - infinite： 无限循环
 
 举个实栗🌰：
+
 ![animation-iteration-count](assets/animation-iteration.gif)
 
 #### Animation-direction
@@ -152,6 +155,7 @@ animation-direction: alternate;
 ```
 
 举个实栗🌰：
+
 ![animation-direction](assets/animation-direction.gif)
 
 ### Animation-fill-mode
@@ -163,6 +167,7 @@ animation-direction: alternate;
 
 
 举个实栗🌰：
+
 ![animation-fill-mode](assets/animation-fill.gif)
 
 ### Animation-play-state
@@ -178,6 +183,7 @@ animation-play-state: paused|running;
 - `running`:
 
 举个栗子🌰：
+
 ```css
 .div:hover {
   animation-play-state: paused;
@@ -185,4 +191,5 @@ animation-play-state: paused|running;
 ```
 
 举个实栗🌰：
+
 ![animation-play](assets/animation-play.gif)
