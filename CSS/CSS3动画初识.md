@@ -1,4 +1,25 @@
 # CSS3动画初识
+
+
+
+目录
+===
+<!-- TOC -->
+- [关键帧(Keyframes)](#关键帧(Keyframes))
+- [动画属性](#动画属性)
+- [动画属性简写](#动画属性简写)
+- [浏览器前缀](#浏览器前缀)
+- [其他动画属性](#其他动画属性)
+  - [Animation-timing-function](#Animation-timing-function)
+  - [Animation-Delay](#Animation-Delay)
+  - [Animation-iteration-count](#Animation-iteration-count)
+  - [Animation-direction](#Animation-direction)
+  - [Animation-fill-mode](#Animation-fill-mode)
+  - [Animation-play-state](#Animation-play-state)
+
+<!-- /TOC -->
+
+
 CSS 动画由两个基本块构成
 1. Keyframes - 关键帧
 2. Animation Properties - 动画属性
