@@ -152,7 +152,7 @@ animation-direction: alternate;
 ```
 
 举个实栗🌰：
-![animation-iteration](assets/animation-iteration.gif)
+![animation-direction](assets/animation-direction.gif)
 
 ### Animation-fill-mode
 `animation-fill-mode` 属性规定动画在播放之前或之后，其动画效果是否可见
