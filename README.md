@@ -6,6 +6,7 @@
 ---
 # Javascript 篇
 ### 基础
+- [基本数据类型详解](Javascript/Base/基本数据类型详解.md)
 - [原型与原型链详解](Javascript/Base/原型与原型链详解.md)
 - [闭包的好处及坏处](Javascript/Base/闭包的好处及坏处.md)
 ### ES6
