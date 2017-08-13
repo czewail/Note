@@ -1,5 +1,6 @@
 # 学习笔记／整理／搜集／摘录
 保持对未知世界永不停息的热情
+![founder](assets/founder.jpg)
 ---
 # Linux 篇
 ### CentOS
