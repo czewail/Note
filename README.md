@@ -6,6 +6,8 @@
 ---
 # Javascript 篇
 ### 基础
+- [原型与原型链详解](Javascript/Base/原型与原型链详解.md)
+- [闭包的好处及坏处](Javascript/Base/闭包的好处及坏处.md)
 ### ES6
 ### React
 ---
