@@ -52,6 +52,10 @@ div {
   animation: bounceIn 2s;
 }
 ```
+举个实栗🌰：
+![bounceIn](assets/bouncein.gif)
+
+
 ### 动画属性简写
 每个动画属性都可以单独定义，但是为了使代码更清晰简洁，建议使用简写方式：
 
@@ -59,9 +63,6 @@ div {
 animation: [animation-name] [animation-duration] [animation-timing-function] [animation-delay] [animation-iteration-count] [animation-direction] [animation-fill-mode] [animation-play-state];
 ```
 需要注意参数顺序，并且前两个参数为必须的
-
-实栗🌰：
-![bounceIn](assets/bouncein.gif)
 
 ### 浏览器前缀
 
@@ -108,3 +109,80 @@ animation-timing-function: value;
 - `cubic-bezier(n,n,n,n)`: 在 cubic-bezier 函数中自定义值。n可能是从 0 到 1 的数值
 
 #### Animation-Delay
+
+`animation-delay`属性定义动画何时开始,  值为秒(如：5s)或毫秒(如：200ms)
+
+注意： 允许负值，-2s 使动画马上开始，但跳过 2 秒进入动画
+
+```css
+div {
+  animation-delay: 5s;
+}
+```
+
+举个实栗🌰：
+![animation-delay](assets/animation-delay.gif)
+
+#### Animation-iteration-count
+
+`animation-iteration-count` 属性定义动画的播放次数
+
+预设值：
+- #：数值，表示循环次数，默认为1
+- infinite： 无限循环
+
+举个实栗🌰：
+![animation-iteration-count](assets/animation-iteration.gif)
+
+#### Animation-direction
+
+`animation-direction` 属性定义是否应该轮流反向播放动画, 如果 `animation-direction` 值是 `"alternate"`，则动画会在奇数次数（1、3、5 等等）正常播放，而在偶数次数（2、4、6 等等）向后播放
+
+注意： 如果把动画设置为只播放一次，则该属性没有效果
+
+预设值：
+- `normal`: 默认值。动画正常播放，在每个循环动画开始重置状态(0%)然后再到(100%)。
+- `reverse`: 反向播放，在每个循环动画重置到最终状态(100%)然后再到(0%)。
+- `alternate`:  动画轮流正向反向播放，动画从0%到100%然后再从100%到0%，循环往复播放。
+- `alternate-reverse`: 动画轮流反向正向播放，动画从100%到0%然后再从0%到100%，循环往复播放。
+
+css语法：
+```txt
+animation-direction: alternate;
+```
+
+举个实栗🌰：
+![animation-iteration](assets/animation-iteration.gif)
+
+### Animation-fill-mode
+`animation-fill-mode` 属性规定动画在播放之前或之后，其动画效果是否可见
+- `none`: 不改变默认行为
+- `forwards`: 当动画完成后，保持最后一个属性值（在最后一个关键帧中定义)
+- `backwards`: 在 `animation-delay` 所指定的一段时间内，在动画显示之前，应用开始属性值（在第一个关键帧中定义）
+- `both`: 向前和向后填充模式都被应用
+
+
+举个实栗🌰：
+![animation-fill-mode](assets/animation-fill.gif)
+
+### Animation-play-state
+`animation-play-state`属性规定动画正在运行还是暂停
+
+语法：
+```txt
+animation-play-state: paused|running;
+```
+
+预设值：
+- `paused`:
+- `running`:
+
+举个栗子🌰：
+```css
+.div:hover {
+  animation-play-state: paused;
+}
+```
+
+举个实栗🌰：
+![animation-play](assets/animation-play.gif)
