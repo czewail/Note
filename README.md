@@ -12,7 +12,11 @@
 - [基本数据类型详解](Javascript/Base/基本数据类型详解.md)
 - [原型与原型链详解](Javascript/Base/原型与原型链详解.md)
 - [闭包的好处及坏处](Javascript/Base/闭包的好处及坏处.md)
+- [一些案例](Javascript/Example/一些案例.md)
+### 算法
+- [排序算法示例](Javascript/Algorithm/排序算法示例.md)
 ### ES6
+- [深入理解ES6](Javascript/Base/深入理解ES6.md)
 ### React
 ---
 # CSS 篇
